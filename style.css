@@ -28,3 +28,13 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
+/* Login Container */
+.login-container {
+	background-color: hsla(201, 100%, 6%, 0.6);
+	color: hsl(0, 100%, 100%);
+	padding: 3.125rem 1.875rem;
+	width: 50%;
+	min-width: 25rem;
+	max-width: 37.5rem;
+}
