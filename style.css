@@ -20,7 +20,7 @@ body {
 
 /* Main Image */
 .main {
-	background: url('https://picsum.photos/1920/1080/?blur=2') no-repeat center
+	background: url('https://picsum.photos/1920/1080/') no-repeat center
 		center/cover;
 	width: 100vw;
 	min-height: 100vh;
@@ -52,4 +52,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 1.25rem;
+}
+
+.form-label {
+	font-weight: 300;
+	font-size: 1.5rem;
+	margin-bottom: 0.4375rem;
 }
