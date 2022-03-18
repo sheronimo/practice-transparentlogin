@@ -12,3 +12,19 @@ button {
 	border: none;
 	cursor: pointer;
 }
+
+/* Body */
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+/* Main Image */
+.main {
+	background: url('https://picsum.photos/1920/1080/?blur=2') no-repeat center
+		center/cover;
+	width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
